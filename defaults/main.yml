@@ -88,3 +88,5 @@ minio_venv_path: "/opt/minio-venv"
 # Version to install
 minio_server_version: "RELEASE.2025-04-22T22-12-26Z"
 minio_mc_version: "RELEASE.2025-04-16T18-13-26Z"
+
+minio_download_base_url: "https://dl.minio.io/server/minio/release/linux-{{ go_arch }}/archive"
